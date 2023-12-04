@@ -23,12 +23,31 @@ Details
 
 ## Traditional Image Stitching
 
+### APAP Dataset
+
+&emsp; <img width="600" alt="image" src="./imgs/apap.png">
+
+- Paper: As-Projective-As-Possible Image Stitching with Moving DLT, [CVPR2013](https://cs.adelaide.edu.au/~tjchin/apap/files/mdlt.pdf), [TPAMI2014](https://cs.adelaide.edu.au/~tjchin/apap/files/tpami_mdlt_lowres.pdf)    
+- Project: [Official](https://cs.adelaide.edu.au/~tjchin/apap/), [Python Code](https://github.com/EadCat/APAP-Image-Stitching)  
+- Download: https://cs.adelaide.edu.au/~tjchin/apap/#Datasets  
+- Dataset: 8 sets of images, including railtracks, temple, carpark, apartment, chess/girl, construction site, and garden.    
+- Reference:  <br>
+[18] Smoothly varying affine stitching, CVPR2011.  <br>
+[22] Constructing image panoramas using dual-homography warping, CVPR2011.
+
+
+<!--BAMDLT code is expired. Dataset No couch(from[18]), rooftops(from[18]), bikes, train-->
+
+
+
+
+
 
 ## Deep Learning Image Stitching
 
 ### UDIS-D
 
-&emsp; <img alt="image" src="./imgs/UDIS-D.png">
+&emsp; <img width="600" alt="image" src="./imgs/UDIS-D.png">
 
 - Paper: [Unsupervised Deep Image Stitching: Reconstructing Stitched Features to Images](https://arxiv.org/abs/2106.12859), TIP2021  
 - Project: https://github.com/nie-lang/UnsupervisedDeepImageStitching  
