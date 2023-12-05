@@ -84,7 +84,15 @@ Details
 
 
 
-<!--Globally consistent alignment for planar mosaicking via topology analysis : aerial dataset-->
+<!--Globally consistent alignment for planar mosaicking via topology analysis: aerial dataset-->
+
+### REW Dataset (2018)
+
+&emsp; <img width="600" alt="image" src="./imgs/xxx.jpg">   
+- Paper: [Parallax-Tolerant Image Stitching Based on Robust Elastic Warping](https://ieeexplore.ieee.org/document/8119833), TMM2018
+- Project: [Official Code](https://github.com/gain2217/Robust_Elastic_Warping)
+- Download: https://github.com/gain2217/Robust_Elastic_Warping
+- Dataset: it contains two-view and multi-view image groups for image stitching.
 
 
 
