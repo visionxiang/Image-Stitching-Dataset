@@ -74,6 +74,14 @@ Details
 - Dataset: it contains 42 sets of images for image stitching. Many sets of images contain multiple images (> 2) for stitching.   
 
 
+### SEAGULL Dataset (2016)
+
+&emsp; <img width="600" alt="image" src="./imgs/seagull.jpg">   
+- Paper: [SEAGULL: Seam-Guided Local Alignment for Parallax-Tolerant Image Stitching](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_23), ECCV2016   
+- Project:  
+- Download: (Link expired)
+- Dataset: it contains 24 pairs of images taken by the author using mobile phones with challenging parallax variation.
+
 
 
 
