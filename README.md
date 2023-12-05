@@ -84,11 +84,13 @@ Details
 
 
 
+<!--Globally consistent alignment for planar mosaicking via topology analysis : aerial dataset-->
+
 
 
 ## Deep Learning Image Stitching
 
-### UDIS-D
+### UDIS-D (2021)
 
 &emsp; <img width="600" alt="image" src="./imgs/UDIS-D.png">
 
