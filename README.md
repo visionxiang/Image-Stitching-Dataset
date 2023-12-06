@@ -29,7 +29,7 @@ Details
 - Paper: As-Projective-As-Possible Image Stitching with Moving DLT, [CVPR2013](https://cs.adelaide.edu.au/~tjchin/apap/files/mdlt.pdf), [TPAMI2014](https://cs.adelaide.edu.au/~tjchin/apap/files/tpami_mdlt_lowres.pdf)    
 - Project: [Official](https://cs.adelaide.edu.au/~tjchin/apap/), [Python Code](https://github.com/EadCat/APAP-Image-Stitching)  
 - Download: https://cs.adelaide.edu.au/~tjchin/apap/#Datasets  
-- Dataset: 8 sets of images, including railtracks, temple, carpark, apartment, chess/girl, construction site, and garden.    
+- Details: 8 sets of images, including railtracks, temple, carpark, apartment, chess/girl, construction site, and garden.    
 - Reference:  <br>
 [18] Smoothly varying affine stitching, CVPR2011.  <br>
 [22] Constructing image panoramas using dual-homography warping, CVPR2011.
@@ -39,11 +39,11 @@ Details
 
 ### Parallax-tolerant Stitching Dataset (2014)
 
-&emsp; <img width="600" alt="image" src="./imgs/parallax-tolerant_stitch.jpg">      
+&emsp; <img width="600" alt="image" src="./imgs/parallax-tolerant_stitch2.jpg">      
 - Paper: [Parallax-tolerant Image Stitching](https://pages.cs.wisc.edu/~fliu/papers/cvpr2014-stitching.pdf), CVPR2014  
 - Project: https://pages.cs.wisc.edu/~fliu/project/stitch/index.htm  
-- Download: https://pages.cs.wisc.edu/~fliu/project/stitch/dataset.zip   
-- Dataset: The dataset contains 36 sets of images for two-view image stitching.   
+- Download: [Zip](https://pages.cs.wisc.edu/~fliu/project/stitch/dataset.zip), [Imgs](https://web.cecs.pdx.edu/~fliu/project/stitch/dataset.html)
+- Details: The dataset contains 36 sets of images for two-view image stitching.   
 
 
 ### SPHP Dataset (2014)
@@ -53,7 +53,7 @@ Details
 - Related Paper: [Spatially-Varying Image Warps for Scene Alignment](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Chang2014SVI.pdf), ICPR2014  
 - Project: [Code]  
 - Download: [Google Drive]()  
-- Dataset: Add another 7 sets of images for image stitching based on the APAP dataset.   
+- Details: Add another 7 sets of images for image stitching based on the APAP dataset.   
 
 
 ### Stereostitch Dataset (2015)
@@ -62,7 +62,7 @@ Details
 - Paper: [Casual Stereoscopic Panorama Stitching](https://pages.cs.wisc.edu/~fliu/papers/cvpr2015-panorama.pdf), CVPR2015  
 - Project: https://pages.cs.wisc.edu/~fliu/project/stereostitch/   
 - Download: https://pages.cs.wisc.edu/~fliu/project/stereostitch/dataset.zip  
-- Dataset: The dataset contains 22 sets of images (incl. one group of images for 360 stitching), taken by stereo cameras Fujifilm FinePix 3D W3 and Panasonic HDC-Z10000. Each set of images includes both the left images and right images exhibiting large parallax.  
+- Details: The dataset contains 22 sets of images (incl. one group of images for 360 stitching), taken by stereo cameras Fujifilm FinePix 3D W3 and Panasonic HDC-Z10000. Each set of images includes both the left images and right images exhibiting large parallax.  
 
 
 ### NISwGSP Dataset (2016)
@@ -71,7 +71,7 @@ Details
 - Paper: [Natural Image Stitching with the Global Similarity Prior](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_12), ECCV2016   
 - Project: https://github.com/nothinglo/NISwGSP  
 - Download: [Google Drive]()  
-- Dataset: it contains 42 sets of images for image stitching. Many sets of images contain multiple images (> 2) for stitching.   
+- Details: it contains 42 sets of images for image stitching. Many sets of images contain multiple images (> 2) for stitching.   
 
 
 ### SEAGULL Dataset (2016)
@@ -80,21 +80,51 @@ Details
 - Paper: [SEAGULL: Seam-Guided Local Alignment for Parallax-Tolerant Image Stitching](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_23), ECCV2016   
 - Project:  
 - Download: (Link expired)
-- Dataset: it contains 24 pairs of images taken by the author using mobile phones with challenging parallax variation.
+- Details: it contains 24 pairs of images taken by the author using mobile phones with challenging parallax variation.
 
-
-
-<!--Globally consistent alignment for planar mosaicking via topology analysis: aerial dataset-->
 
 ### REW Dataset (2018)
 
-&emsp; <img width="600" alt="image" src="./imgs/xxx.jpg">   
+&emsp; <img width="600" alt="image" src="./imgs/REW.png">   
 - Paper: [Parallax-Tolerant Image Stitching Based on Robust Elastic Warping](https://ieeexplore.ieee.org/document/8119833), TMM2018
-- Project: [Official Code](https://github.com/gain2217/Robust_Elastic_Warping)
+- Project: [Official Code](https://github.com/gain2217/Robust_Elastic_Warping), [Python](https://github.com/breadcake/python-Robust_Elastic_Warping)
 - Download: https://github.com/gain2217/Robust_Elastic_Warping
 - Dataset: it contains two-view and multi-view image groups for image stitching.
 
 
+
+### Dataset for Stitching with Multiple Registrations (2018)
+
+&emsp; <img width="600" alt="image" src="./imgs/multi_regis.png">   
+- Paper: [Robust Image Stitching with Multiple Registrations](https://drive.google.com/file/d/1BWdkiJJHBSn9JNaMVhhD1WHD8upK51AH/view), ECCV2018
+- Project: https://sites.google.com/view/oois-eccv18/home?authuser=0 
+- Download: [Google Drive](https://drive.google.com/open?id=1RNfs8I9NZu6A2FGT6Ba86nfEBOgbPdSp)
+- Details: It contains 14 sets of images. 
+
+
+### Object-Centered Stitching Dataset (2018)
+
+&emsp; <img width="600" alt="image" src="./imgs/object_center.png">   
+- Paper: [Object-centered image stitching](https://drive.google.com/file/d/1_YnPNNWzNphdrd_51lXL7q-jm5N3Cttn/view), ECCV2018
+- Project: https://sites.google.com/view/oois-eccv18/home?authuser=0
+- Download: https://drive.google.com/open?id=1OIDwCcmVlSMqrLmwPBA8G2A5G4NgcQMF
+- Details: It contains 26 sets of images. 
+
+
+### BRAS Dataset (2019)
+
+&emsp; <img width="600" alt="image" src="./imgs/bras.png">   
+- Paper: [Robust Alignment for Panoramic Stitching Via an Exact Rank Constraint](https://ieeexplore.ieee.org/abstract/document/8684316), TIP2019 
+- Project: http://signal.ee.psu.edu/research/BRAS.html
+- Download: http://signal.ee.psu.edu/research/BRAS.html
+- Details: One group of catabus images
+
+
+
+
+
+
+<!--Globally consistent alignment for planar mosaicking via topology analysis: aerial dataset-->
 
 ## Deep Learning Image Stitching
 
