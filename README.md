@@ -23,7 +23,7 @@ Details
 
 ## Traditional Image Stitching
 
-### APAP Dataset (2014)
+### APAP Dataset (2013)
 
 &emsp; <img width="600" alt="image" src="./imgs/apap.png">  
 - Paper: As-Projective-As-Possible Image Stitching with Moving DLT, [CVPR2013](https://cs.adelaide.edu.au/~tjchin/apap/files/mdlt.pdf), [TPAMI2014](https://cs.adelaide.edu.au/~tjchin/apap/files/tpami_mdlt_lowres.pdf)    
