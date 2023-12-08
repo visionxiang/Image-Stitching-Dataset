@@ -120,6 +120,15 @@ Details
 - Details: One group of catabus images
 
 
+### SPW Dataset (2020)
+
+&emsp; <img width="600" alt="image" src="./imgs/SPW2020.jpg">   
+- Paper: [Single-Perspective Warps in Natural Image Stitching](https://arxiv.org/abs/1802.04645), TIP2020   
+- Project: https://github.com/tlliao/Single-perspective-warps
+- Download: [Dataset](https://github.com/tlliao/Single-perspective-warps/tree/master/Images)
+- Details: contains 42 sets of image pairs for stitching. 
+
+
 
 
 
@@ -128,13 +137,25 @@ Details
 
 ## Deep Learning Image Stitching
 
+
+
+### Hmg-dynamics (2020)
+
+&emsp; <img width="600" alt="image" src="./imgs/hmg-dynamics-2020.png">
+- Paper: [DeepHomographyEstimationforDynamicScenes](https://openaccess.thecvf.com/content_CVPR_2020/papers/Le_Deep_Homography_Estimation_for_Dynamic_Scenes_CVPR_2020_paper.pdf), CVPR2020  
+- Project: https://github.com/lcmhoang/hmg-dynamics
+- Download: 
+- Details: Authors downloaded 877 videos with a Creative Commons License from YouTube. From these videos, they extracted 32,385 static video clips and then applied a known homography sequence to each of them to generate image/video pairs.
+
+
+
+
 ### UDIS-D (2021)
 
 &emsp; <img width="600" alt="image" src="./imgs/UDIS-D.png">
-
 - Paper: [Unsupervised Deep Image Stitching: Reconstructing Stitched Features to Images](https://arxiv.org/abs/2106.12859), TIP2021  
 - Project: https://github.com/nie-lang/UnsupervisedDeepImageStitching  
 - Download: https://github.com/nie-lang/UnsupervisedDeepImageStitching 
 - Related Paper: [Parallax-Tolerant Unsupervised Deep Image Stitching](https://arxiv.org/abs/2302.08207), ICCV2023, [[``Proj``]](https://github.com/nie-lang/UDIS2)
-- Dataset: It is an unsupervised deep image stitching dataset, including 10,440 cases for training and 1,106 for testing.
+- Details: It is an unsupervised deep image stitching dataset, including 10,440 cases for training and 1,106 for testing.
 
