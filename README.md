@@ -203,7 +203,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 <span id="openpano"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/openpano.jpg">   
-- Paper: Open-source panorama stitching project written in C++ from scratch. 
+- Paper: Open-source panorama stitching program written in C++ from scratch. 
 - Project: https://github.com/ppwwyyxx/OpenPano
 - Download: [dataset](https://github.com/ppwwyyxx/OpenPano/releases/tag/0.1)
 - Details: It contains 8 sets of images for panorama stitching, and the number of images for each set ranges from 4 to 38.
