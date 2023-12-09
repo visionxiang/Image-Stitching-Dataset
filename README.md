@@ -10,20 +10,36 @@ A collection of image stitching datasets used for image stitching by line-guided
 Recent image stitching work can be found in: [awesome-computational-photography](https://github.com/visionxiang/awesome-computational-photography).
 
 
-<!--
-Dataset Name
-Imgs
-Paper: 
-Project: 
-Download:  
-Related paper
-Details
---> 
+## Content
+- [Traditional Image Stitching](#Traditional-Image-Stitching)
+  - [APAP Dataset (2013)](#APAP)
+  - [Parallax-tolerant Stitching Dataset (2014)](#Parallaxtolerant)
+  - [SPHP Dataset (2014)](#SPHP)
+  - [Stereostitch Dataset (2015)](#Stereostitch)
+  - [NISwGSP Dataset (2016)](#NISwGSP)
+  - [SEAGULL Dataset (2016)](#SEAGULL)
+  - [REW Dataset (2018)](#REW)
+  - [Dataset - Multiple Registrations (2018)](#multiregis)
+  - [Object-Centered Stitching Dataset (2018)](#objcenter)
+  - [BRAS Dataset (2019)](#BRAS)
+  - [SPW Dataset (2020)](#SPW)
+  - [VPG Dataset (2020)](#VPG)
+  - [LPC Dataset (2021)](#LPC)
+  - [GES-50 (2022)](#GES50)
+- [Deep Learning Image Stitching](#Deep-Learning-Image-Stitching)
+  - [Hmg-dynamics (2020)](#hmgdynamics)
+  - [Content-Aware-DeepH-Data (2020)](#CADH)
+  - [UDIS-D (2021)](#UDISD)
+  - [DIR-D (2022)](#DIRD)
+  - [WSSN Dataset (2022)](#WSSN)
+
+
 
 
 ## Traditional Image Stitching
 
 ### APAP Dataset (2013)
+<span id="APAP"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/apap.png">  
 - Paper: As-Projective-As-Possible Image Stitching with Moving DLT, [CVPR2013](https://cs.adelaide.edu.au/~tjchin/apap/files/mdlt.pdf), [TPAMI2014](https://cs.adelaide.edu.au/~tjchin/apap/files/tpami_mdlt_lowres.pdf)    
@@ -38,6 +54,7 @@ Details
 
 
 ### Parallax-tolerant Stitching Dataset (2014)
+<span id="Parallaxtolerant"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/parallax-tolerant_stitch2.jpg">      
 - Paper: [Parallax-tolerant Image Stitching](https://pages.cs.wisc.edu/~fliu/papers/cvpr2014-stitching.pdf), CVPR2014  
@@ -47,6 +64,7 @@ Details
 
 
 ### SPHP Dataset (2014)
+<span id="SPHP"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/SPHP.jpg">    
 - Paper: [Shape-Preserving Half-Projective Warps for Image Stitching](https://openaccess.thecvf.com/content_cvpr_2014/papers/Chang_Shape-Preserving_Half-Projective_Warps_2014_CVPR_paper.pdf), CVPR2014  
@@ -57,6 +75,7 @@ Details
 
 
 ### Stereostitch Dataset (2015)
+<span id="Stereostitch"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/stereostitch_dataset.png">    
 - Paper: [Casual Stereoscopic Panorama Stitching](https://pages.cs.wisc.edu/~fliu/papers/cvpr2015-panorama.pdf), CVPR2015  
@@ -66,6 +85,7 @@ Details
 
 
 ### NISwGSP Dataset (2016)
+<span id="NISwGSP"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/NISwGSP.jpg">   
 - Paper: [Natural Image Stitching with the Global Similarity Prior](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_12), ECCV2016   
@@ -75,6 +95,7 @@ Details
 
 
 ### SEAGULL Dataset (2016)
+<span id="SEAGULL"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/seagull.jpg">   
 - Paper: [SEAGULL: Seam-Guided Local Alignment for Parallax-Tolerant Image Stitching](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_23), ECCV2016   
@@ -84,6 +105,7 @@ Details
 
 
 ### REW Dataset (2018)
+<span id="REW"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/REW.png">   
 - Paper: [Parallax-Tolerant Image Stitching Based on Robust Elastic Warping](https://ieeexplore.ieee.org/document/8119833), TMM2018
@@ -94,6 +116,7 @@ Details
 
 
 ### Dataset for Stitching with Multiple Registrations (2018)
+<span id="multiregis"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/multi_regis.png">   
 - Paper: [Robust Image Stitching with Multiple Registrations](https://drive.google.com/file/d/1BWdkiJJHBSn9JNaMVhhD1WHD8upK51AH/view), ECCV2018
@@ -103,6 +126,7 @@ Details
 
 
 ### Object-Centered Stitching Dataset (2018)
+<span id="objcenter"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/object_center.png">   
 - Paper: [Object-centered image stitching](https://drive.google.com/file/d/1_YnPNNWzNphdrd_51lXL7q-jm5N3Cttn/view), ECCV2018
@@ -112,6 +136,7 @@ Details
 
 
 ### BRAS Dataset (2019)
+<span id="BRAS"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/bras.png">   
 - Paper: [Robust Alignment for Panoramic Stitching Via an Exact Rank Constraint](https://ieeexplore.ieee.org/abstract/document/8684316), TIP2019 
@@ -121,6 +146,7 @@ Details
 
 
 ### SPW Dataset (2020)
+<span id="SPW"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/SPW2020.jpg">   
 - Paper: [Single-Perspective Warps in Natural Image Stitching](https://arxiv.org/abs/1802.04645), TIP2020   
@@ -130,6 +156,7 @@ Details
 
 
 ### VPG Dataset (2020)
+<span id="VPG"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/VPG2020.png">   
 - Paper: [Vanishing Point Guided Natural Image Stitching](https://arxiv.org/pdf/2004.02478.pdf), arXiv2020   
@@ -139,6 +166,7 @@ Details
 
 
 ### LPC Dataset (2021)
+<span id="LPC"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/LPC2021.jpg">   
 - Paper: [Leveraging Line-point Consistence to Preserve Structures for Wide Parallax Image Stitching](https://openaccess.thecvf.com/content/CVPR2021/papers/Jia_Leveraging_Line-Point_Consistence_To_Preserve_Structures_for_Wide_Parallax_Image_CVPR_2021_paper.pdf), CVPR2021  
@@ -148,12 +176,24 @@ Details
 
 
 ### GES-50 (2022)
+<span id="GES50"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/GES50_2022.jpg">   
 - Paper: [Geometric Structure Preserving Warp for Natural Image Stitching](https://openaccess.thecvf.com/content/CVPR2022/html/Du_Geometric_Structure_Preserving_Warp_for_Natural_Image_Stitching_CVPR_2022_paper.html), CVPR2022   
 - Project: https://github.com/flowerDuo/GES-GSP-Stitching
 - Download: [dataset](https://github.com/flowerDuo/GES-GSP-Stitching/tree/master/Dataset)
 - Details: There are 50 diversified and challenging image groups (26 from the previous dataset and 24 collected by this work). The number of images ranges from 2 to 35.
+
+
+
+
+### Color Consistency Dataset (2019)
+
+&emsp; <img width="600" alt="image" src="./imgs/colorconsistency2019.png">   
+- Paper: [A Closed-Form Solution for Multi-view Color Correction with Gradient Preservation](https://menghanxia.github.io/papers/2019_Color_Consistency_Optimization_isprs_journal.pdf), ISPRSJ2019    
+- Project: https://github.com/MenghanXia/ColorConsistency
+- Download: [dataset](https://github.com/MenghanXia/ColorConsistency)
+- Details: It contains 3 sets of images for color correction in image stitching, including campus, lunchroom and building.
 
 
 
@@ -168,6 +208,7 @@ Details
 ## Deep Learning Image Stitching
 
 ### Hmg-dynamics (2020)
+<span id="hmgdynamics"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/hmg-dynamics-2020.png">
 - Paper: [Deep Homography Estimation for Dynamic Scenes](https://openaccess.thecvf.com/content_CVPR_2020/papers/Le_Deep_Homography_Estimation_for_Dynamic_Scenes_CVPR_2020_paper.pdf), CVPR2020  
@@ -177,6 +218,7 @@ Details
 
 
 ### Content-Aware-DeepH-Data (2020)
+<span id="CADH"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/hmg-dynamics-2020.png">
 - Paper: [Content-Aware Unsupervised Deep Homography Estimation](https://arxiv.org/pdf/1909.05983.pdf), ECCV2020
@@ -188,6 +230,7 @@ Details
 
 
 ### UDIS-D (2021)
+<span id="UDISD"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/UDIS-D.png">
 - Paper: [Unsupervised Deep Image Stitching: Reconstructing Stitched Features to Images](https://arxiv.org/abs/2106.12859), TIP2021  
@@ -198,6 +241,7 @@ Details
 
 
 ### DIR-D (2022)
+<span id="DIRD"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/DIR-D2022.png">
 - Paper: [Deep Rectangling for Image Stitching: A Learning Baseline](https://arxiv.org/pdf/2203.03831.pdf), CVPR2022 
@@ -207,6 +251,7 @@ Details
 
 
 ### WSSN Dataset (2022)
+<span id="WSSN"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/WSSN2022.png">
 - Paper: [Weakly-Supervised Stitching Network for Real-World Panoramic Image Generation](https://arxiv.org/abs/2209.05968), ECCV2022 
