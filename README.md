@@ -26,6 +26,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
   - [VPG Dataset (2020)](#VPG)
   - [LPC Dataset (2021)](#LPC)
   - [GES-50 (2022)](#GES50)
+  - [Color Consistency Dataset (2019)](#colorconsistency)
 - [Deep Learning Image Stitching](#Deep-Learning-Image-Stitching)
   - [Hmg-dynamics (2020)](#hmgdynamics)
   - [Content-Aware-DeepH-Data (2020)](#CADH)
@@ -188,12 +189,13 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 
 
 ### Color Consistency Dataset (2019)
+<span id="colorconsistency"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/colorconsistency2019.png">   
 - Paper: [A Closed-Form Solution for Multi-view Color Correction with Gradient Preservation](https://menghanxia.github.io/papers/2019_Color_Consistency_Optimization_isprs_journal.pdf), ISPRSJ2019    
 - Project: https://github.com/MenghanXia/ColorConsistency
 - Download: [dataset](https://github.com/MenghanXia/ColorConsistency)
-- Details: It contains 3 sets of images for color correction in image stitching, including campus, lunchroom and building.
+- Details: It contains 3 sets of images for color correction in image stitching, including campus, lunchroom, and school building.
 
 
 
