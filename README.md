@@ -27,6 +27,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
   - [LPC Dataset (2021)](#LPC)
   - [GES-50 (2022)](#GES50)
   - [Color Consistency Dataset (2019)](#colorconsistency)
+  - [OpenPano Dataset (2016)](#openpano)
 - [Deep Learning Image Stitching](#Deep-Learning-Image-Stitching)
   - [Hmg-dynamics (2020)](#hmgdynamics)
   - [Content-Aware-DeepH-Data (2020)](#CADH)
@@ -42,7 +43,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 ### APAP Dataset (2013)
 <span id="APAP"></span>
 
-&emsp; <img width="600" alt="image" src="./imgs/apap.png">  
+&emsp; <img width="600" alt="image" src="./imgs/apap.jpg">  
 - Paper: As-Projective-As-Possible Image Stitching with Moving DLT, [CVPR2013](https://cs.adelaide.edu.au/~tjchin/apap/files/mdlt.pdf), [TPAMI2014](https://cs.adelaide.edu.au/~tjchin/apap/files/tpami_mdlt_lowres.pdf)    
 - Project: [Official](https://cs.adelaide.edu.au/~tjchin/apap/), [Python Code](https://github.com/EadCat/APAP-Image-Stitching)  
 - Download: [dataset](https://cs.adelaide.edu.au/~tjchin/apap/#Datasets)  
@@ -198,11 +199,15 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 - Details: It contains 3 sets of images for color correction in image stitching, including campus, lunchroom, and school building.
 
 
+### OpenPano Dataset (2016)
+<span id="openpano"></span>
 
+&emsp; <img width="600" alt="image" src="./imgs/openpano.jpg">   
+- Paper: Open-source panorama stitching project written in C++ from scratch. 
+- Project: https://github.com/ppwwyyxx/OpenPano
+- Download: [dataset](https://github.com/ppwwyyxx/OpenPano/releases/tag/0.1)
+- Details: It contains 8 sets of images for panorama stitching, and the number of images for each set ranges from 4 to 38.
 
-
-
-<!--Globally consistent alignment for planar mosaicking via topology analysis: aerial dataset-->
 
 
 
