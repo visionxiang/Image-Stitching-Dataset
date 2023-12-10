@@ -12,6 +12,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 
 ## Content
 - [Traditional Image Stitching](#Traditional-Image-Stitching)
+  - [SVA Dataset (2011)](#SVA)
   - [APAP Dataset (2013)](#APAP)
   - [Parallax-tolerant Stitching Dataset (2014)](#Parallaxtolerant)
   - [SPHP Dataset (2014)](#SPHP)
@@ -40,19 +41,30 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 
 ## Traditional Image Stitching
 
+### SVA Dataset (2011)
+<span id="SVA"></span>
+
+&emsp; <img width="600" alt="image" src="./imgs/SVA2011.png">      
+- Paper: [Smoothly varying affine stitching](https://ieeexplore.ieee.org/abstract/document/5995314), CVPR2011   
+- Project: No 
+- Download: [dataset](https://drive.google.com/drive/folders/1FciKXGD0p_5Ly8_gQDkM2WUdSNRvxBuC?usp=sharing)
+- Details: The dataset contains 5 sets of images for image stitching, ranging from 2 to 3 images. 
+
+
+
 ### APAP Dataset (2013)
 <span id="APAP"></span>
 
 &emsp; <img width="600" alt="image" src="./imgs/apap.jpg">  
 - Paper: As-Projective-As-Possible Image Stitching with Moving DLT, [CVPR2013](https://cs.adelaide.edu.au/~tjchin/apap/files/mdlt.pdf), [TPAMI2014](https://cs.adelaide.edu.au/~tjchin/apap/files/tpami_mdlt_lowres.pdf)    
-- Project: [Official](https://cs.adelaide.edu.au/~tjchin/apap/), [Python Code](https://github.com/EadCat/APAP-Image-Stitching)  
+- Project: [Official](https://cs.adelaide.edu.au/~tjchin/apap/), [Python Code](https://github.com/EadCat/APAP-Image-Stitching), [C++](https://github.com/egoist-sx/AsProjectiveAsPossible)  
 - Download: [dataset](https://cs.adelaide.edu.au/~tjchin/apap/#Datasets)  
 - Details: 8 sets of images, including railtracks, temple, carpark, apartment, chess/girl, construction site, and garden.    
 - Reference:  <br>
 [18] Smoothly varying affine stitching, CVPR2011.  <br>
 [22] Constructing image panoramas using dual-homography warping, CVPR2011.
 
-<!--BAMDLT code is expired. Dataset No couch(from[18]), bikes -->
+<!-- Dataset No bikes -->
 
 
 ### Parallax-tolerant Stitching Dataset (2014)
