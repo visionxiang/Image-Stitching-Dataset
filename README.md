@@ -29,6 +29,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
   - [GES-50 (2022)](#GES50)
   - [Color Consistency Dataset (2019)](#colorconsistency)
   - [OpenPano Dataset (2016)](#openpano)
+  - [Aerial Image Stitching Dataset](#AIS)
 - [Deep Learning Image Stitching](#Deep-Learning-Image-Stitching)
   - [Hmg-dynamics (2020)](#hmgdynamics)
   - [Content-Aware-DeepH-Data (2020)](#CADH)
@@ -84,7 +85,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 - Paper: [Shape-Preserving Half-Projective Warps for Image Stitching](https://openaccess.thecvf.com/content_cvpr_2014/papers/Chang_Shape-Preserving_Half-Projective_Warps_2014_CVPR_paper.pdf), CVPR2014  
 - Related Paper: [Spatially-Varying Image Warps for Scene Alignment](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Chang2014SVI.pdf), ICPR2014  
 - Project: [Code]  
-- Download: [Google Drive]()  
+- Download: [dataset](https://drive.google.com/drive/folders/1RRIXj4gn_qN93p58Sh1lUOxh_8L1RRr9?usp=sharing)  
 - Details: Add another 7 sets of images for image stitching based on the APAP dataset.   
 
 
@@ -104,7 +105,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 &emsp; <img width="600" alt="image" src="./imgs/NISwGSP.jpg">   
 - Paper: [Natural Image Stitching with the Global Similarity Prior](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_12), ECCV2016   
 - Project: https://github.com/nothinglo/NISwGSP  
-- Download: [Google Drive]()  
+- Download: [dataset](https://drive.google.com/drive/folders/1jzYBuLPbxH4Wrp7CN1IJtoR_cMwm-5OK?usp=sharing)  
 - Details: it contains 42 sets of images for image stitching. Many sets of images contain multiple images (> 2) for stitching.   
 
 
@@ -113,8 +114,8 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 
 &emsp; <img width="600" alt="image" src="./imgs/seagull.jpg">   
 - Paper: [SEAGULL: Seam-Guided Local Alignment for Parallax-Tolerant Image Stitching](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_23), ECCV2016   
-- Project:  
-- Download: (Link expired)
+- Project: No 
+- Download: [dataset](https://drive.google.com/drive/folders/1_u5z4r7i8J4599v8ttNeXC8KJ8PiXV56?usp=sharing)
 - Details: it contains 24 pairs of images taken by the author using mobile phones with challenging parallax variation.
 
 
@@ -135,7 +136,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 &emsp; <img width="600" alt="image" src="./imgs/multi_regis.png">   
 - Paper: [Robust Image Stitching with Multiple Registrations](https://drive.google.com/file/d/1BWdkiJJHBSn9JNaMVhhD1WHD8upK51AH/view), ECCV2018
 - Project: https://sites.google.com/view/oois-eccv18/home?authuser=0 
-- Download: [Google Drive](https://drive.google.com/open?id=1RNfs8I9NZu6A2FGT6Ba86nfEBOgbPdSp)
+- Download: [dataset](https://drive.google.com/open?id=1RNfs8I9NZu6A2FGT6Ba86nfEBOgbPdSp)
 - Details: It contains 14 sets of images. 
 
 
@@ -175,7 +176,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 &emsp; <img width="600" alt="image" src="./imgs/VPG2020.png">   
 - Paper: [Vanishing Point Guided Natural Image Stitching](https://arxiv.org/pdf/2004.02478.pdf), arXiv2020   
 - Project: http://cvrs.whu.edu.cn/projects/VPGStitching/
-- Download: [dataset]
+- Download: [dataset](https://drive.google.com/drive/folders/1n9Pf2vqNpT1r7QAjjYnVnwZu_OfuMRhW?usp=sharing)
 - Details: The dataset contains 36 sets of images, of which 12 sets of synthetic images and 24 sets of real images. All synthetic images were generated through 3Ds Max rendering hence the associated parameters are known. All real images were captured by a mobile phone. The VPG dataset contains both indoor scenes and outdoor street-view scenes. All images were carefully collected to ensure the Manhattan assumption. The number of images involved in stitching in each set ranges from 5 to 72.
 
 
@@ -207,7 +208,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 &emsp; <img width="600" alt="image" src="./imgs/colorconsistency2019.png">   
 - Paper: [A Closed-Form Solution for Multi-view Color Correction with Gradient Preservation](https://menghanxia.github.io/papers/2019_Color_Consistency_Optimization_isprs_journal.pdf), ISPRSJ2019    
 - Project: https://github.com/MenghanXia/ColorConsistency
-- Download: [dataset](https://github.com/MenghanXia/ColorConsistency)
+- Download: [dataset](https://github.com/MenghanXia/ColorConsistency), [dataset](https://drive.google.com/drive/folders/1bXhFKNYrLVburN4l6q-nZfe7Vrq1YdyE?usp=sharing)
 - Details: It contains 3 sets of images for color correction in image stitching, including campus, lunchroom, and school building.
 
 
@@ -221,6 +222,13 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 - Details: It contains 8 sets of images for panorama stitching, and the number of images for each set ranges from 4 to 38.
 
 
+### Aerial Image Stitching (AIS) Dataset
+<span id="AIS"></span>
+
+- Aerial Images of Virginia Beach: [Open Data Portal](https://gis.data.vbgov.com/datasets/824c57d560e648079cb4ed2ca763774c/explore)
+- OpenDroneMap Data: [ODMData](https://www.opendronemap.org/odm/datasets/)
+- PlanarMosaicking Data: [Paper-PR2017](https://www.sciencedirect.com/science/article/abs/pii/S0031320317300201), [Code](https://github.com/MenghanXia/AutoStitching), [Dataset](https://drive.google.com/drive/folders/1W5e4lWo7S3gfwyYh9lN3sxQ-YuU3W2Ly?usp=sharing)
+- UAVMosaicking Data: [Paper-RS2016](https://www.mdpi.com/2072-4292/8/3/204), [Dataset](https://drive.google.com/file/d/1sUI_iwCrwgMB4JKZff0wy0DLXY8A8d0c/view?usp=sharing)
 
 
 
@@ -232,7 +240,7 @@ Recent image stitching work can be found in: [awesome-computational-photography]
 &emsp; <img width="600" alt="image" src="./imgs/hmg-dynamics-2020.png">
 - Paper: [Deep Homography Estimation for Dynamic Scenes](https://openaccess.thecvf.com/content_CVPR_2020/papers/Le_Deep_Homography_Estimation_for_Dynamic_Scenes_CVPR_2020_paper.pdf), CVPR2020  
 - Project: https://github.com/lcmhoang/hmg-dynamics
-- Download: 
+- Download: https://github.com/lcmhoang/hmg-dynamics
 - Details: Authors downloaded 877 videos with a Creative Commons License from YouTube. From these videos, they extracted 32,385 static video clips and then applied a known homography sequence to each of them to generate image/video pairs.
 
 
