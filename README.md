@@ -2,12 +2,27 @@
 
 <p align="left">
 <a href="https://arxiv.org/abs/1702.07935"><img src="https://img.shields.io/badge/Paper-arXiv-green"></a>
-<a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320318302231"><img src="https://img.shields.io/badge/Paper-PDF-blue"></a>
+<a href="https://drive.google.com/file/d/1MQn74x-tSGOtIBLqy4kFx1Wt2-fi4uKX/view?usp=sharing"><img src="https://img.shields.io/badge/Paper-PDF-green"></a>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320318302231"><img src="https://img.shields.io/badge/Paper-Official-blue"></a> 
 </p>
 
 A collection of image stitching datasets used for image stitching by line-guided local warping with global similarity constraint, PR, 2018. 
 
 Recent image stitching work can be found in: [awesome-computational-photography](https://github.com/visionxiang/awesome-computational-photography).
+
+If you find this work useful, please cite our paper:
+
+```
+@article{xiang2018image,
+  title={Image Stitching by Line-guided Local Warping with Global Similarity Constraint},
+  author={Xiang, Tian-Zhu and Xia, Gui-Song and Bai, Xiang and Zhang, Liangpei},
+  journal={Pattern Recognition},
+  volume={83},
+  pages={481--497},
+  year={2018},
+  publisher={Elsevier}
+} 
+```
 
 
 ## Content
